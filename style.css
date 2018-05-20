@@ -120,5 +120,6 @@ div.bodyText {
   /*border: 1px solid red;*/
   height: 100px;
   width: 960px;
-  margin-left: 10px;
+  margin-left: 4px;
+  line-height: 18px;
 }
