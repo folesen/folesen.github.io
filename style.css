@@ -1,0 +1,124 @@
+img {
+}
+p {
+  color: rgb(64,59,51);
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+p.blue {
+  color: rgb(64,59,51);
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+p.blue:hover {
+  color: rgb(162, 107, 162);
+}
+h1 {
+  color: rgb(64,59,51);
+  font-family: sans-serif;
+  font-size: 45px;
+}
+h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+body {
+  background-color: rgb(93, 148, 81);
+}
+.center {
+  text-align: center;
+}
+div.imageLogo {
+  float: right;
+  margin-right: -70px;
+}
+div.backgroundDiv {
+  background: rgba(214,225,199, 0.75);
+  height: 650px;
+  width: 1000px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(64,59,51,0.5);
+}
+div.title {
+  position: static;
+  height: 75px;
+  width: auto;
+  float: left;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+div.dropDown {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 100px;
+  width: 1000px;
+  height: 40px;
+  border-top: 1px solid rgba(64,59,51,0.5);
+  border-bottom: 1px solid rgba(64,59,51,0.5);
+  background: rgba(237,235,230, 0.3)
+}
+div.titleLogo {
+  width: 1000px;
+  height: auto;
+}
+div.categories {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+  width: auto;
+  /*border: 1px solid red;*/
+  margin-top: 7px;
+  margin-left: 30px;
+}
+div.advice {
+  width: 135px;
+}
+a {
+    align-self: center;
+    text-decoration: none;
+}
+div.normalText {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid rgba(64,59,51,0.5);
+  height: 450px;
+  width: 965px;
+  margin-left: 15px;
+  margin-top: 10px;
+  background: rgba(214,225,199, 0.5);
+  border-radius: 5px;
+}
+p.header {
+  color: rgb(64,59,51);
+  font-family: sans-serif;
+  font-size: 25px;
+}
+div.bodyHead {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*border: 1px solid red;*/
+  height: 40px;
+  width: 500px;
+  margin-left: 5px;
+}
+div.bodyText {
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid red;*/
+  height: 100px;
+  width: 960px;
+  margin-left: 10px;
+}
